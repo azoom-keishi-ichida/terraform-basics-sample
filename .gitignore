@@ -1,0 +1,25 @@
+.terraform/
+**/.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+*.pem
+*.key
+*.backup
+*.lock.hcl
+
+# macOS
+.DS_Store
+
+# Node / Nuxt
+node_modules/
+.nuxt/
+.output/
+dist/
+.env
+.env.*
+
+# GCP credentials (examples)
+**/*service-account*.json
+**/*credentials*.json
